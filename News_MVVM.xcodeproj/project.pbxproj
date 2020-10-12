@@ -20,6 +20,8 @@
 		2250277E25342AC4002DB18A /* NewsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250277D25342AC4002DB18A /* NewsHome.swift */; };
 		2250278225342B71002DB18A /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250278125342B71002DB18A /* NewsCell.swift */; };
 		2250278625342C8D002DB18A /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250278525342C8D002DB18A /* NewsListView.swift */; };
+		2250278A253441A7002DB18A /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22502789253441A7002DB18A /* SwiftUIWebView.swift */; };
+		2250278D2534424E002DB18A /* NewsArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250278C2534424E002DB18A /* NewsArticleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		2250277D25342AC4002DB18A /* NewsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHome.swift; sourceTree = "<group>"; };
 		2250278125342B71002DB18A /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		2250278525342C8D002DB18A /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		22502789253441A7002DB18A /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		2250278C2534424E002DB18A /* NewsArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		2250275125341CA2002DB18A /* News_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				2250278825344196002DB18A /* Components */,
 				22502770253421C5002DB18A /* Services */,
 				2250276B25341FD7002DB18A /* Config */,
 				2250276325341DC5002DB18A /* Models */,
@@ -115,6 +120,7 @@
 				2250277D25342AC4002DB18A /* NewsHome.swift */,
 				2250278125342B71002DB18A /* NewsCell.swift */,
 				2250278525342C8D002DB18A /* NewsListView.swift */,
+				2250278C2534424E002DB18A /* NewsArticleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -142,6 +148,14 @@
 				22502771253421E6002DB18A /* NetworkManager.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		2250278825344196002DB18A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				22502789253441A7002DB18A /* SwiftUIWebView.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +233,9 @@
 				22502775253425DE002DB18A /* NewsViewModel.swift in Sources */,
 				2250278225342B71002DB18A /* NewsCell.swift in Sources */,
 				2250278625342C8D002DB18A /* NewsListView.swift in Sources */,
+				2250278D2534424E002DB18A /* NewsArticleView.swift in Sources */,
 				2250277E25342AC4002DB18A /* NewsHome.swift in Sources */,
+				2250278A253441A7002DB18A /* SwiftUIWebView.swift in Sources */,
 				2250275525341CA2002DB18A /* ContentView.swift in Sources */,
 				22502772253421E6002DB18A /* NetworkManager.swift in Sources */,
 				2250276D25341FE8002DB18A /* Api.swift in Sources */,

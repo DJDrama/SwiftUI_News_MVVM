@@ -38,6 +38,12 @@ struct NewsCell: View {
                 .font(.caption)
                 .foregroundColor(.black)
             
-        }
+        }.sheet(isPresented: $isPresented, content: {
+            NewsArticleView(newsUrl: self.news.url)
+        })
+        .onTapGesture(perform: {
+            self.isPresented.toggle()
+        })
     }
+    
 }
