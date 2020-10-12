@@ -8,6 +8,6 @@
 import Foundation
 
 struct API {
-    static let key = "get key from newsapi.org"
+    static let key = "45b8d6439dcc4eddaa9762a6eeb8ac8a"
     
 }
